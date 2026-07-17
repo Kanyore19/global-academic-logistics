@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Academic Logistics — 1:1 Expert Tutoring in Software, Nursing, Data &amp; Engineering</title>
+<meta name="description" content="Get matched with a subject-expert tutor — not a generalist — for Software Engineering, Web Development, Nursing, Data Analysis, or Engineering coursework. 1:1 sessions built around your syllabus, exams, and deadlines. Free consultation.">
+<link rel="canonical" href="https://globalacademiclogistics.com/">
+
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Global Academic Logistics">
+<meta property="og:title" content="Global Academic Logistics — 1:1 Expert Tutoring for the Careers You're Building">
+<meta property="og:description" content="Matched tutoring in Software Engineering, Web Development, Nursing, Data Analysis, and Engineering — built around your actual coursework.">
+<meta property="og:image" content="assets/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Structured data: helps search engines show rich results (org info, FAQs) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Global Academic Logistics",
+  "description": "1:1 tutoring in Software Engineering, Web Development, Nursing, Data Analysis, and Engineering, matched to each student's coursework.",
+  "url": "https://globalacademiclogistics.com/",
+  "logo": "https://globalacademiclogistics.com/assets/logo.png",
+  "email": "globalacademiclogistics@gmail.com",
+  "areaServed": ["GB","US","CA","AU","ES","IN"],
+  "sameAs": []
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How fast can I start after I submit an inquiry?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Most students hear back within one business day and are matched with a tutor within 48 hours of their intro call." }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my tutor actually know my course, not just the general subject?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. We ask for your syllabus or course outline during matching and pair you with a tutor experienced in that specific curriculum and level." }
+    },
+    {
+      "@type": "Question",
+      "name": "What if the tutor isn't the right fit?",
+      "acceptedAnswer": { "@type": "Answer", "text": "We offer a rematch within the first week at no extra cost, no questions asked." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer one-off sessions or only ongoing packages?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Both. You can book a single session ahead of an exam or set up a recurring plan tied to your term." }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/logo.png">
+
+<!-- ================= ANALYTICS: Google Tag Manager ================= -->
+<!-- Container: GTM-NDRRQT96. Manage all tags (including GA4) at tagmanager.google.com
+     — no code changes needed here again after this. -->
+<script src="assets/gtm-loader.js" defer></script>
+
+<!-- ================= SECURITY HARDENING (page-level) ================= -->
+<!-- Content-Security-Policy: only allow scripts/styles/fonts/images from this site
+     and the specific third-party font CDNs actually used. Blocks injected/malicious
+     scripts from running even if someone tampers with the page.
+     NOTE: clickjacking protection (frame-ancestors / X-Frame-Options) and MIME-sniffing
+     protection (X-Content-Type-Options) cannot be set via <meta> — browsers only honor
+     those as real HTTP response headers. They're enforced via the included _headers
+     file once this is deployed on Netlify/Vercel/similar — see hosting notes. -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self' https://www.googletagmanager.com;
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src 'self' https://fonts.gstatic.com;
+  img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com;
+  connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com;
+  frame-src https://www.googletagmanager.com;
+  base-uri 'self';
+  form-action 'self';
+  object-src 'none';
+  upgrade-insecure-requests;
+">
+<!-- Don't leak this page's full URL to third-party sites when links are clicked -->
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<!-- Explicitly disable browser features this site never needs -->
+<meta http-equiv="Permissions-Policy" content="geolocation=(), camera=(), microphone=(), payment=()">
+<style>
+  /* ============================================
+     DESIGN TOKENS — edit these to restyle the whole site
+     ============================================ */
+  :root {
+    /* Color */
+    --ink:        #12233F;   /* primary navy — headers, nav, buttons */
+    --ink-2:      #1B3358;   /* lighter navy for gradients/hover */
+    --paper:      #F7F8FA;   /* cool off-white page background */
+    --paper-2:    #FFFFFF;   /* card background */
+    --accent:     #1B9C8C;   /* teal from logo — accent, use sparingly */
+    --accent-soft: #4FBFAE;
+    --charcoal:   #1C1C1E;   /* primary text */
+    --slate:      #5B6472;   /* secondary text */
+    --line:       #E2E4E9;   /* borders/dividers */
+
+    /* Type */
+    --font-display: 'Fraunces', Georgia, serif;
+    --font-body: 'Inter', -apple-system, sans-serif;
+    --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+
+    --radius: 3px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-body);
+    background: var(--paper);
+    color: var(--charcoal);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; }
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  }
+
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+  section { padding: 96px 0; scroll-margin-top: 84px; }
+  @media (max-width: 720px) { section { padding: 64px 0; } }
+
+  h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; color: var(--ink); letter-spacing: -0.01em; }
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: inline-block;
+    margin-bottom: 14px;
+  }
+
+  /* ---------- Header / Nav ---------- */
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(247,248,250,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 24px;
+    max-width: 1120px; margin: 0 auto;
+  }
+  .logo {
+    display: flex; align-items: center;
+    text-decoration: none;
+  }
+  .logo-img {
+    height: 44px;
+    width: auto;
+    display: block;
+  }
+  .nav-links { display: flex; gap: 32px; list-style: none; align-items: center; }
+  .nav-links a {
+    text-decoration: none;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: var(--charcoal);
+    transition: color 0.15s;
+  }
+  .nav-links a:hover { color: var(--accent); }
+  .nav-cta {
+    background: var(--ink);
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: var(--radius);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .nav-cta:hover { background: var(--ink-2); }
+  .nav-toggle { display: none; background: none; border: none; cursor: pointer; }
+
+  @media (max-width: 860px) {
+    .nav-links { position: fixed; top: 66px; left: 0; right: 0; background: var(--paper-2);
+      flex-direction: column; align-items: flex-start; padding: 24px; gap: 20px;
+      border-bottom: 1px solid var(--line); transform: translateY(-150%); transition: transform 0.25s ease; }
+    .nav-links.open { transform: translateY(0); }
+    .nav-toggle { display: block; }
+  }
+
+  /* ---------- Hero ---------- */
+  .hero { padding: 88px 0 72px; position: relative; overflow: hidden; }
+  .hero-grid {
+    display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; align-items: center;
+  }
+  @media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } }
+  .hero h1 {
+    font-size: clamp(34px, 5vw, 54px);
+    line-height: 1.08;
+    margin-bottom: 22px;
+  }
+  .hero h1 em { font-style: italic; color: var(--accent); }
+  .hero p.lede {
+    font-size: 18px;
+    color: var(--slate);
+    max-width: 46ch;
+    margin-bottom: 32px;
+  }
+  .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn {
+    display: inline-block;
+    padding: 13px 26px;
+    border-radius: var(--radius);
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.15s;
+    border: 1.5px solid transparent;
+  }
+  .btn-primary { background: var(--ink); color: #fff; }
+  .btn-primary:hover { background: var(--ink-2); }
+  .btn-ghost { border-color: var(--ink); color: var(--ink); }
+  .btn-ghost:hover { background: var(--ink); color: #fff; }
+
+  /* Signature element: the transcript ledger */
+  .ledger {
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    box-shadow: 0 20px 50px -25px rgba(22,35,63,0.35);
+    overflow: hidden;
+  }
+  .ledger-head {
+    background: var(--ink);
+    color: #fff;
+    padding: 16px 20px;
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.08em;
+  }
+  .ledger-row {
+    display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center;
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--line);
+    font-size: 14.5px;
+  }
+  .ledger-row:last-child { border-bottom: none; }
+  .ledger-code {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--accent);
+    background: rgba(27,156,140,0.08);
+    padding: 3px 8px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .ledger-title { color: var(--charcoal); font-weight: 500; }
+  .ledger-status { font-size: 12px; color: var(--slate); font-family: var(--font-mono); }
+
+  /* ---------- Trust strip ---------- */
+  .trust-strip {
+    padding: 36px 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .trust-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; text-align: center;
+  }
+  @media (max-width: 720px) { .trust-grid { grid-template-columns: repeat(2, 1fr); } }
+  .trust-num { font-family: var(--font-display); font-size: 32px; color: var(--ink); font-weight: 600; }
+  .trust-label { font-size: 13px; color: var(--slate); margin-top: 4px; }
+
+  /* ---------- Global Reach ---------- */
+  .reach { background: var(--paper-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .reach-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 16px;
+  }
+  @media (max-width: 900px) { .reach-grid { grid-template-columns: repeat(4, 1fr); } }
+  @media (max-width: 560px) { .reach-grid { grid-template-columns: repeat(2, 1fr); } }
+  .reach-item {
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 18px 14px;
+    text-align: center;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: var(--charcoal);
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .reach-item:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .reach-code {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+    margin-bottom: 8px;
+  }
+
+  /* ---------- Courses (catalog) ---------- */
+  .section-head { max-width: 640px; margin-bottom: 48px; }
+  .section-head h2 { font-size: clamp(28px, 3.6vw, 38px); margin-bottom: 14px; }
+  .section-head p { color: var(--slate); font-size: 16px; }
+
+  .catalog { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+  .course {
+    display: grid;
+    grid-template-columns: 110px 1fr auto;
+    gap: 24px;
+    align-items: start;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--line);
+    transition: background 0.15s;
+  }
+  .course:hover { background: rgba(27,156,140,0.035); }
+  @media (max-width: 720px) {
+    .course { grid-template-columns: 1fr; gap: 8px; }
+  }
+  .course-code {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--accent);
+    padding-top: 4px;
+  }
+  .course-body h3 { font-size: 20px; margin-bottom: 6px; }
+  .course-body p { color: var(--slate); font-size: 14.5px; max-width: 56ch; }
+  .course-tags { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .tag {
+    font-size: 11.5px;
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--slate);
+    border: 1px solid var(--line);
+    padding: 3px 8px;
+    border-radius: 3px;
+  }
+  .course-meta {
+    text-align: right;
+    font-size: 13px;
+    color: var(--slate);
+    white-space: nowrap;
+    padding-top: 4px;
+  }
+  .course-meta strong { color: var(--ink); display: block; font-family: var(--font-display); font-size: 15px; }
+
+  /* ---------- Process ---------- */
+  .process { background: var(--ink); color: #EDEFF3; }
+  .process .section-head h2 { color: #fff; }
+  .process .section-head p { color: #B7BFD1; }
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; }
+  @media (max-width: 900px) { .steps { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .steps { grid-template-columns: 1fr; } }
+  .step-num {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--accent-soft);
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+  }
+  .step h4 { color: #fff; font-size: 18px; margin-bottom: 8px; }
+  .step p { color: #B7BFD1; font-size: 14.5px; }
+
+  /* ---------- Testimonials ---------- */
+  .quotes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  @media (max-width: 900px) { .quotes { grid-template-columns: 1fr; } }
+  .quote {
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 28px;
+  }
+  .quote p.text { font-size: 15px; color: var(--charcoal); margin-bottom: 18px; }
+  .quote .who { font-size: 13px; color: var(--slate); font-family: var(--font-mono); }
+
+  /* ---------- CTA / Contact ---------- */
+  .contact { background: var(--paper-2); border-top: 1px solid var(--line); }
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; }
+  @media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr; } }
+  .field { margin-bottom: 18px; }
+  .field label {
+    display: block; font-size: 13px; font-weight: 600; color: var(--ink);
+    margin-bottom: 6px;
+  }
+  .field input, .field select, .field textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.5px solid var(--line);
+    border-radius: var(--radius);
+    font-family: var(--font-body);
+    font-size: 14.5px;
+    background: var(--paper);
+    color: var(--charcoal);
+  }
+  .field textarea { resize: vertical; min-height: 100px; }
+  .field input:focus, .field select:focus, .field textarea:focus {
+    outline: none; border-color: var(--accent);
+  }
+  .form-note { font-size: 12.5px; color: var(--slate); margin-top: 10px; }
+  .contact-side h3 { font-size: 22px; margin-bottom: 12px; }
+  .contact-side p { color: var(--slate); margin-bottom: 24px; }
+  .contact-detail { display: flex; gap: 12px; margin-bottom: 16px; font-size: 14.5px; }
+  .contact-detail .k { font-family: var(--font-mono); font-size: 11.5px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; min-width: 70px; padding-top: 2px; }
+
+  /* ---------- About / Authority ---------- */
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+  @media (max-width: 860px) { .about-grid { grid-template-columns: 1fr; gap: 40px; } }
+  .about-grid h2 { font-size: clamp(28px, 3.6vw, 38px); margin-bottom: 18px; }
+  .about-grid p { color: var(--slate); font-size: 16px; margin-bottom: 16px; max-width: 52ch; }
+  .credentials { display: flex; flex-direction: column; gap: 0; border-top: 1px solid var(--line); }
+  .credential { display: grid; grid-template-columns: 90px 1fr; gap: 18px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+  .credential .cred-label { font-family: var(--font-mono); font-size: 12px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; padding-top: 3px; }
+  .credential h4 { font-size: 15.5px; color: var(--ink); margin-bottom: 4px; }
+  .credential p { font-size: 14px; color: var(--slate); margin-bottom: 0; }
+
+  /* ---------- Comparison ---------- */
+  .compare { background: var(--paper-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .compare-table { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+  .compare-table th, .compare-table td { padding: 16px 18px; text-align: left; border-bottom: 1px solid var(--line); }
+  .compare-table th { font-family: var(--font-display); font-weight: 600; color: var(--ink); font-size: 15px; }
+  .compare-table td { color: var(--slate); }
+  .compare-table td.yes { color: var(--accent); font-weight: 600; }
+  .compare-table td.yes::before { content: "✓ "; }
+  .compare-table td.no { color: #B0413E; }
+  .compare-table td.no::before { content: "— "; }
+  .compare-table tr td:first-child, .compare-table tr th:first-child { color: var(--charcoal); font-weight: 500; }
+  .compare-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; background: var(--paper-2); }
+  .compare-highlight { background: rgba(27,156,140,0.04); }
+
+  /* ---------- Guarantee banner ---------- */
+  .guarantee { background: var(--ink); color: #fff; border-radius: 6px; padding: 40px 44px; display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: center; margin-top: 56px; }
+  @media (max-width: 720px) { .guarantee { grid-template-columns: 1fr; padding: 32px 28px; } }
+  .guarantee-badge { font-family: var(--font-display); font-size: 15px; border: 1.5px solid var(--accent-soft); color: var(--accent-soft); border-radius: 50%; width: 84px; height: 84px; display: flex; align-items: center; justify-content: center; text-align: center; line-height: 1.2; padding: 6px; }
+  .guarantee h3 { color: #fff; font-size: 20px; margin-bottom: 8px; }
+  .guarantee p { color: #B7BFD1; font-size: 14.5px; margin: 0; }
+
+  /* ---------- FAQ ---------- */
+  .faq-list { border-top: 1px solid var(--line); max-width: 760px; }
+  .faq-item { border-bottom: 1px solid var(--line); }
+  .faq-item summary {
+    padding: 22px 4px; cursor: pointer; list-style: none;
+    display: flex; justify-content: space-between; align-items: center; gap: 16px;
+    font-family: var(--font-display); font-size: 16.5px; color: var(--ink); font-weight: 600;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: "+"; font-size: 22px; color: var(--accent); font-family: var(--font-body); flex-shrink: 0; transition: transform 0.2s; }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item .faq-answer { padding: 0 4px 22px; color: var(--slate); font-size: 15px; max-width: 62ch; }
+
+  /* ---------- Portfolio ---------- */
+  .portfolio-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  @media (max-width: 900px) { .portfolio-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .portfolio-grid { grid-template-columns: 1fr; } }
+  .portfolio-card {
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+  .portfolio-card:hover { box-shadow: 0 20px 40px -22px rgba(22,35,63,0.28); transform: translateY(-3px); }
+  .portfolio-thumb { position: relative; aspect-ratio: 4/3; overflow: hidden; background: #0F1B30; }
+  .portfolio-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .portfolio-watermark {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 76px;
+    opacity: 0.82;
+    filter: drop-shadow(0 1px 3px rgba(0,0,0,0.35));
+    pointer-events: none;
+  }
+  .portfolio-format {
+    position: absolute; top: 10px; left: 10px;
+    font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.06em;
+    background: rgba(18,35,63,0.85); color: #fff; padding: 4px 8px; border-radius: 3px;
+  }
+  .portfolio-body { padding: 16px 18px 20px; }
+  .portfolio-body h4 { font-size: 15px; color: var(--ink); margin-bottom: 4px; }
+  .portfolio-body p { font-size: 13px; color: var(--slate); margin: 0; }
+  .portfolio-note { margin-top: 36px; font-size: 13.5px; color: var(--slate); max-width: 68ch; }
+
+  /* ---------- Footer ---------- */
+  footer { padding: 40px 0; border-top: 1px solid var(--line); }
+  .footer-grid { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+  .footer-grid p { font-size: 13px; color: var(--slate); }
+  .footer-links { display: flex; gap: 24px; list-style: none; }
+  .footer-links a { font-size: 13px; color: var(--slate); text-decoration: none; }
+  .footer-links a:hover { color: var(--accent); }
+
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+</style>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDRRQT96"
+height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
+
+<a href="#courses" class="visually-hidden">Skip to courses</a>
+
+<header>
+  <nav class="nav">
+    <a href="#" class="logo"><img src="assets/logo.png" alt="Global Academic Logistics" class="logo-img"></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#about">Our Tutors</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#process">How it works</a></li>
+      <li><a href="#testimonials">Results</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact" class="nav-cta">Request Info</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Connecting Knowledge. Delivering Possibilities.</span>
+        <h1>Serious tutoring for <em>the careers</em> you're actually building.</h1>
+        <p class="lede">Global Academic Logistics matches students with subject-expert tutors across software engineering, web development, nursing, data analysis, and engineering — built around your coursework, your deadlines, your goals.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Request a consultation</a>
+          <a href="#courses" class="btn btn-ghost">View course catalog</a>
+        </div>
+        <p style="margin-top:18px; font-size:13px; color:var(--slate);">Free 15-minute intro call · Reply within 1 business day · Free rematch in week one</p>
+      </div>
+
+      <!-- Signature element: course ledger -->
+      <div class="ledger" role="img" aria-label="Sample course catalog entries">
+        <div class="ledger-head">
+          <span>CURRENT CATALOG</span>
+          <span>ENROLLING NOW</span>
+        </div>
+        <div class="ledger-row">
+          <span class="ledger-code">SWE-201</span>
+          <span class="ledger-title">Software Engineering</span>
+          <span class="ledger-status">Open</span>
+        </div>
+        <div class="ledger-row">
+          <span class="ledger-code">WEB-150</span>
+          <span class="ledger-title">Website Development</span>
+          <span class="ledger-status">Open</span>
+        </div>
+        <div class="ledger-row">
+          <span class="ledger-code">NUR-110</span>
+          <span class="ledger-title">Nursing Fundamentals</span>
+          <span class="ledger-status">Open</span>
+        </div>
+        <div class="ledger-row">
+          <span class="ledger-code">DAT-220</span>
+          <span class="ledger-title">Data Analysis</span>
+          <span class="ledger-status">Open</span>
+        </div>
+        <div class="ledger-row">
+          <span class="ledger-code">ENG-300</span>
+          <span class="ledger-title">Engineering Courses</span>
+          <span class="ledger-status">Open</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TRUST STRIP ================= -->
+  <section class="trust-strip" style="padding-top:0; padding-bottom: 36px;">
+    <div class="wrap trust-grid">
+      <div><div class="trust-num">5</div><div class="trust-label">Subject tracks</div></div>
+      <div><div class="trust-num">1:1</div><div class="trust-label">Tutor matching</div></div>
+      <div><div class="trust-num">7 days</div><div class="trust-label">A week availability</div></div>
+      <div><div class="trust-num">100%</div><div class="trust-label">Course-aligned plans</div></div>
+    </div>
+  </section>
+
+  <!-- ================= COURSES ================= -->
+  <section id="courses">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Course Catalog</span>
+        <h2>Tutoring built around real coursework</h2>
+        <p>Each track is led by tutors who've worked in the field, not just studied it — so you're learning how the concept is actually used, not just how it's tested.</p>
+      </div>
+
+      <div class="catalog">
+        <div class="course">
+          <span class="course-code">SWE-201</span>
+          <div class="course-body">
+            <h3>Software Engineering</h3>
+            <p>Data structures, algorithms, system design, and version control — with support tailored to your program's syllabus and assignments.</p>
+            <div class="course-tags"><span class="tag">Algorithms</span><span class="tag">System Design</span><span class="tag">Git</span></div>
+          </div>
+          <div class="course-meta"><strong>1:1 &amp; Group</strong>All levels</div>
+        </div>
+
+        <div class="course">
+          <span class="course-code">WEB-150</span>
+          <div class="course-body">
+            <h3>Website Development</h3>
+            <p>HTML, CSS, JavaScript, and modern frameworks — from your first static page to full-stack, deployable applications.</p>
+            <div class="course-tags"><span class="tag">HTML/CSS/JS</span><span class="tag">Frameworks</span><span class="tag">Deployment</span></div>
+          </div>
+          <div class="course-meta"><strong>1:1 &amp; Group</strong>Beginner–Advanced</div>
+        </div>
+
+        <div class="course">
+          <span class="course-code">NUR-110</span>
+          <div class="course-body">
+            <h3>Nursing</h3>
+            <p>Pathophysiology, pharmacology, care planning, and NCLEX preparation, taught by tutors with clinical nursing backgrounds.</p>
+            <div class="course-tags"><span class="tag">Pharmacology</span><span class="tag">Care Planning</span><span class="tag">NCLEX Prep</span></div>
+          </div>
+          <div class="course-meta"><strong>1:1</strong>All levels</div>
+        </div>
+
+        <div class="course">
+          <span class="course-code">DAT-220</span>
+          <div class="course-body">
+            <h3>Data Analysis</h3>
+            <p>Statistics, SQL, Python/R, and data visualization — building the analytical habits that carry into real projects and portfolios.</p>
+            <div class="course-tags"><span class="tag">Statistics</span><span class="tag">SQL</span><span class="tag">Python/R</span></div>
+          </div>
+          <div class="course-meta"><strong>1:1 &amp; Group</strong>Beginner–Advanced</div>
+        </div>
+
+        <div class="course">
+          <span class="course-code">ENG-300</span>
+          <div class="course-body">
+            <h3>Engineering Courses</h3>
+            <p>Core mechanical, civil, and electrical coursework support — calculus-based physics, statics, circuits, and design projects.</p>
+            <div class="course-tags"><span class="tag">Physics</span><span class="tag">Statics</span><span class="tag">Circuits</span></div>
+          </div>
+          <div class="course-meta"><strong>1:1</strong>All levels</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT / AUTHORITY ================= -->
+  <section id="about">
+    <div class="wrap about-grid">
+      <div>
+        <span class="eyebrow">Why Global Academic Logistics</span>
+        <h2>Tutors who've done the job, not just passed the class</h2>
+        <p>We started Global Academic Logistics because too much online tutoring is generalists reading ahead in the textbook. That doesn't hold up once you're staring at a real assignment on a real deadline.</p>
+        <p>So we built a smaller, more deliberate roster: working and former professionals in software, nursing, data, and engineering who tutor because they're good at explaining the thing they actually practice. Every match starts with your syllabus, not a generic curriculum.</p>
+        <p>The result is tutoring that holds up under exam pressure — because the person teaching you has been on the other side of the problem.</p>
+      </div>
+      <div class="credentials">
+        <div class="credential">
+          <span class="cred-label">Vetting</span>
+          <h4>Subject-matter screening, not a generic interview</h4>
+          <p>Every tutor is assessed by someone already working in that field before they're approved to teach it.</p>
+        </div>
+        <div class="credential">
+          <span class="cred-label">Match</span>
+          <h4>Paired to your syllabus and level</h4>
+          <p>We match on your actual course outline and current grade standing, not just a subject checkbox.</p>
+        </div>
+        <div class="credential">
+          <span class="cred-label">Oversight</span>
+          <h4>Progress checked, not assumed</h4>
+          <p>Advisors review session notes and grade movement regularly, so an off-track match gets caught early.</p>
+        </div>
+        <div class="credential">
+          <span class="cred-label">Fit</span>
+          <h4>Free rematch in week one</h4>
+          <p>If the tutor isn't the right fit after your first sessions, we rematch you at no extra cost.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PORTFOLIO ================= -->
+  <section id="portfolio" style="background: var(--paper-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Tutor Skill Portfolio</span>
+        <h2>The kind of CAD work our tutors teach, live</h2>
+        <p>A sample of Autodesk Inventor part modeling and AutoCAD 2D drafting our Engineering tutors demonstrate and walk students through in session — from sketch constraints to finished parametric models.</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <span class="portfolio-format">INVENTOR · 3D</span>
+            <img src="assets/portfolio/inclined-support.jpg" alt="Inclined support bracket modeled in Autodesk Inventor" loading="lazy">
+            <img class="portfolio-watermark" src="assets/logo.png" alt="">
+          </div>
+          <div class="portfolio-body"><h4>Inclined Support Bracket</h4><p>Multi-extrusion part with angled face and mounting holes.</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <span class="portfolio-format">INVENTOR · 3D</span>
+            <img src="assets/portfolio/angle-slider.jpg" alt="Angle slider component modeled in Autodesk Inventor" loading="lazy">
+            <img class="portfolio-watermark" src="assets/logo.png" alt="">
+          </div>
+          <div class="portfolio-body"><h4>Angle Slider</h4><p>Notched slider geometry with offset bore features.</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <span class="portfolio-format">AUTOCAD · 2D</span>
+            <img src="assets/portfolio/2d-mechanical-drawing.jpg" alt="Dimensioned 2D mechanical drawing in AutoCAD" loading="lazy">
+            <img class="portfolio-watermark" src="assets/logo.png" alt="">
+          </div>
+          <div class="portfolio-body"><h4>Dimensioned Mechanical Drawing</h4><p>Full dimension chain with radii, keyway, and hole callouts.</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <span class="portfolio-format">INVENTOR · 3D</span>
+            <img src="assets/portfolio/tube-mount.jpg" alt="Tube mount bracket modeled in Autodesk Inventor" loading="lazy">
+            <img class="portfolio-watermark" src="assets/logo.png" alt="">
+          </div>
+          <div class="portfolio-body"><h4>Tube Mount Bracket</h4><p>L-shaped mount with through-bore for tube fitment.</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <span class="portfolio-format">INVENTOR · 3D</span>
+            <img src="assets/portfolio/slotted-plate.jpg" alt="Slotted support plate modeled in Autodesk Inventor" loading="lazy">
+            <img class="portfolio-watermark" src="assets/logo.png" alt="">
+          </div>
+          <div class="portfolio-body"><h4>Slotted Support Plate</h4><p>Flat plate with dual bore pattern and angled edge.</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <span class="portfolio-format">INVENTOR · 3D</span>
+            <img src="assets/portfolio/wedge-bracket.jpg" alt="Wedge support bracket modeled in Autodesk Inventor" loading="lazy">
+            <img class="portfolio-watermark" src="assets/logo.png" alt="">
+          </div>
+          <div class="portfolio-body"><h4>Wedge Support Bracket</h4><p>Angled wedge form with central bore and notch relief.</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <span class="portfolio-format">AUTOCAD · 2D</span>
+            <img src="assets/portfolio/six-hole-plate.jpg" alt="Six-hole mounting plate drawing in AutoCAD" loading="lazy">
+            <img class="portfolio-watermark" src="assets/logo.png" alt="">
+          </div>
+          <div class="portfolio-body"><h4>Six-Hole Mounting Plate</h4><p>Symmetric bolt pattern with fillets and angular dimensions.</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <span class="portfolio-format">AUTOCAD · 2D</span>
+            <img src="assets/portfolio/elliptical-cam-profile.jpg" alt="Elliptical cam profile drawing in AutoCAD" loading="lazy">
+            <img class="portfolio-watermark" src="assets/logo.png" alt="">
+          </div>
+          <div class="portfolio-body"><h4>Elliptical Cam Profile</h4><p>Major/minor axis construction with fillet blends.</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <span class="portfolio-format">INVENTOR · 3D</span>
+            <img src="assets/portfolio/vent-cover.jpg" alt="Vented cover plate modeled in Autodesk Inventor" loading="lazy">
+            <img class="portfolio-watermark" src="assets/logo.png" alt="">
+          </div>
+          <div class="portfolio-body"><h4>Vented Cover Plate</h4><p>Elliptical plate with hex and organic vent cutouts.</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <span class="portfolio-format">INVENTOR · 3D</span>
+            <img src="assets/portfolio/anchor-base.jpg" alt="Anchor base bracket modeled in Autodesk Inventor" loading="lazy">
+            <img class="portfolio-watermark" src="assets/logo.png" alt="">
+          </div>
+          <div class="portfolio-body"><h4>Anchor Base Bracket</h4><p>Twin-arch mounting base with aligned bore pattern.</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <span class="portfolio-format">INVENTOR · 3D</span>
+            <img src="assets/portfolio/connecting-link.jpg" alt="Connecting link/lever modeled in Autodesk Inventor" loading="lazy">
+            <img class="portfolio-watermark" src="assets/logo.png" alt="">
+          </div>
+          <div class="portfolio-body"><h4>Connecting Link</h4><p>Dual-bore lever arm with mirrored fillet transitions.</p></div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-thumb">
+            <span class="portfolio-format">AUTOCAD · 2D</span>
+            <img src="assets/portfolio/curved-profile-bracket.jpg" alt="Curved profile bracket drawing in AutoCAD" loading="lazy">
+            <img class="portfolio-watermark" src="assets/logo.png" alt="">
+          </div>
+          <div class="portfolio-body"><h4>Curved Profile Bracket</h4><p>Ogee curve construction between evenly spaced bores.</p></div>
+        </div>
+      </div>
+      <p class="portfolio-note">These pieces illustrate technique, not a service catalog — they're the kind of models and drawings a tutor builds step-by-step alongside you, explaining the sketch constraints and feature order as they go.</p>
+    </div>
+  </section>
+
+  <!-- ================= PROCESS ================= -->
+  <section id="process" class="process">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow" style="color:#4FBFAE;">How It Works</span>
+        <h2>Four steps from inquiry to progress you can see</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01 — Enroll</div>
+          <h4>Tell us your course</h4>
+          <p>Share your subject, syllabus, and current standing — we use it to scope exactly where support is needed.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02 — Match</div>
+          <h4>Meet your tutor</h4>
+          <p>We pair you with a tutor whose background fits your subject and level, not a generalist.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03 — Learn</div>
+          <h4>Work the plan</h4>
+          <p>Sessions follow a plan built around your assignments, exams, and deadlines — not a generic curriculum.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">04 — Track</div>
+          <h4>See the progress</h4>
+          <p>Regular check-ins on grades and understanding, so you know the tutoring is actually working.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPARISON ================= -->
+  <section class="compare">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">How This Compares</span>
+        <h2>What matched tutoring actually gets you</h2>
+        <p>Most students try one of three routes before finding us. Here's the honest difference.</p>
+      </div>
+      <div class="compare-wrap">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th class="compare-highlight">Global Academic Logistics</th>
+              <th>Generalist tutoring sites</th>
+              <th>Studying alone</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tutor knows your specific course</td>
+              <td class="yes compare-highlight">Matched to your syllabus</td>
+              <td class="no">Rarely, matched by subject only</td>
+              <td class="no">N/A</td>
+            </tr>
+            <tr>
+              <td>Sessions tied to your deadlines</td>
+              <td class="yes compare-highlight">Built around exams/assignments</td>
+              <td class="no">Generic curriculum</td>
+              <td class="no">Self-paced, easy to drift</td>
+            </tr>
+            <tr>
+              <td>Progress actually tracked</td>
+              <td class="yes compare-highlight">Advisor check-ins</td>
+              <td class="no">Usually not</td>
+              <td class="no">No accountability</td>
+            </tr>
+            <tr>
+              <td>Wrong-fit tutor</td>
+              <td class="yes compare-highlight">Free rematch, week one</td>
+              <td class="no">Often locked into package</td>
+              <td class="no">N/A</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section id="testimonials">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Results</span>
+        <h2>Students who found their footing</h2>
+      </div>
+      <div class="quotes">
+        <div class="quote">
+          <p class="text">"My tutor rebuilt my understanding of data structures from the ground up. My next exam grade jumped from a C to an A-."</p>
+          <p class="who">— Software Engineering student</p>
+        </div>
+        <div class="quote">
+          <p class="text">"Pharmacology finally clicked once someone walked me through it clinically instead of just from the textbook."</p>
+          <p class="who">— Nursing student</p>
+        </div>
+        <div class="quote">
+          <p class="text">"I went from being intimidated by SQL to building my own portfolio projects in six weeks."</p>
+          <p class="who">— Data Analysis student</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Questions</span>
+        <h2>Before you reach out</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>How fast can I start?</summary>
+          <p class="faq-answer">Most students hear back within one business day. After a short intro call to confirm your course and goals, you're typically matched with a tutor within 48 hours.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Will my tutor actually know my specific course, not just the general subject?</summary>
+          <p class="faq-answer">Yes — we ask for your syllabus or course outline during matching and pair you with a tutor experienced in that exact curriculum and level, not a generalist working from the textbook.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What if the tutor isn't the right fit for me?</summary>
+          <p class="faq-answer">You get a free rematch within the first week, no extra cost and no awkward conversation required — just tell your advisor.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do you only offer ongoing packages, or can I book a single session?</summary>
+          <p class="faq-answer">Both. Book one session ahead of a specific exam, or set up a recurring plan tied to your term — whichever matches how you actually work.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is this the same as someone doing my assignments for me?</summary>
+          <p class="faq-answer">No. Tutors teach the concept and walk through practice problems with you so you can do the work yourself — that's what actually moves your grade and holds up on exams.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What timezones do you cover?</summary>
+          <p class="faq-answer">Sessions run online across UK, US, Canadian, Australian, Spanish, and Indian time zones — we schedule around your availability, not ours.</p>
+        </details>
+      </div>
+
+      <div class="guarantee">
+        <div class="guarantee-badge">Week 1<br>Rematch</div>
+        <div>
+          <h3>If the first tutor isn't right, we fix it — free.</h3>
+          <p>Every match includes a no-cost rematch window in your first week. You're not locked into a bad fit or a wasted package.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GLOBAL REACH ================= -->
+  <section id="reach" class="reach">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Global Reach</span>
+        <h2>Students we work with, wherever they are</h2>
+        <p>Sessions run online, so timezone is the only real border — we currently support students across these regions.</p>
+      </div>
+      <div class="reach-grid">
+        <div class="reach-item"><span class="reach-code">UK</span>United Kingdom</div>
+        <div class="reach-item"><span class="reach-code">US</span>United States</div>
+        <div class="reach-item"><span class="reach-code">CA</span>Canada</div>
+        <div class="reach-item"><span class="reach-code">AU</span>Australia</div>
+        <div class="reach-item"><span class="reach-code">ES</span>Spain</div>
+        <div class="reach-item"><span class="reach-code">IN</span>India</div>
+        <div class="reach-item"><span class="reach-code">AF</span>Africa</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <span class="eyebrow">Request Info</span>
+        <h2 style="margin-bottom:20px;">Tell us what you're working on</h2>
+        <form id="inquiryForm" name="inquiry" method="POST" data-netlify="true" netlify-honeypot="company" novalidate>
+          <!-- Required so Netlify's build bot recognizes and registers this form -->
+          <input type="hidden" name="form-name" value="inquiry">
+          <!-- Honeypot field: hidden from real users via CSS, invisible to screen readers.
+               Bots that auto-fill every field will trip this and get silently rejected. -->
+          <div style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;" aria-hidden="true">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" tabindex="-1" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="course">Course of interest</label>
+            <select id="course" name="course">
+              <option>Software Engineering</option>
+              <option>Website Development</option>
+              <option>Nursing</option>
+              <option>Data Analysis</option>
+              <option>Engineering Courses</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">What do you need help with?</label>
+            <textarea id="message" name="message" placeholder="e.g. Preparing for a data structures midterm in three weeks"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="border:none; cursor:pointer;">Send request</button>
+          <p class="form-note" id="formNote">We reply to every inquiry within one business day.</p>
+        </form>
+      </div>
+      <div class="contact-side">
+        <h3>Prefer to reach us directly?</h3>
+        <p>Our academic advisors are available to talk through your course, timeline, and the right tutor fit before you commit to anything.</p>
+        <div class="contact-detail"><span class="k">Contact</span><span>+254 115 266 980 <span style="color:var(--slate); font-size:12.5px;">(WhatsApp / Telegram)</span></span></div>
+        <div class="contact-detail"><span class="k">Email</span><span><a href="mailto:globalacademiclogistics@gmail.com">globalacademiclogistics@gmail.com</a></span></div>
+        <div class="contact-detail"><span class="k">Hours</span><span>Mon–Sat, 8am–8pm (EAT)</span></div>
+        <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:8px;">
+          <a href="https://wa.me/254115266980" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">Chat on WhatsApp</a>
+          <a href="https://t.me/+254115266980" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">Chat on Telegram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <p>© 2026 Global Academic Logistics. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#about">Our Tutors</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#">Privacy</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="assets/script.js" defer></script>
+
+</body>
+</html>
